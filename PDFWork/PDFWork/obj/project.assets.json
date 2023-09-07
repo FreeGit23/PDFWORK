@@ -1,0 +1,126 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0-windows7.0": {
+      "Ghostscript.NET/1.2.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/net40/Ghostscript.NET.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net40/Ghostscript.NET.dll": {
+            "related": ".xml"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Ghostscript.NET/1.2.3.1": {
+      "sha512": "m93pfry6YefiEIBlma/P7MSmVmpcPay1w4XoqG9rbV02kMcqPXEWkYuCiGAN3jh40E+PqpIqy5Rec0EHentDPw==",
+      "type": "package",
+      "path": "ghostscript.net/1.2.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ghostscript.net.1.2.3.1.nupkg.sha512",
+        "ghostscript.net.nuspec",
+        "lib/net40/Ghostscript.NET.dll",
+        "lib/net40/Ghostscript.NET.xml"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0-windows7.0": [
+      "Ghostscript.NET >= 1.2.3.1"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Radhakrishnan\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "T:\\Test\\LAB\\PDFWork\\PDFWork\\PDFWork\\PDFWork.vbproj",
+      "projectName": "PDFWork",
+      "projectPath": "T:\\Test\\LAB\\PDFWork\\PDFWork\\PDFWork\\PDFWork.vbproj",
+      "packagesPath": "C:\\Users\\Radhakrishnan\\.nuget\\packages\\",
+      "outputPath": "T:\\Test\\LAB\\PDFWork\\PDFWork\\PDFWork\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\Radhakrishnan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
+        "P:\\packages": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0-windows7.0": {
+          "targetAlias": "net6.0-windows",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0-windows7.0": {
+        "targetAlias": "net6.0-windows",
+        "dependencies": {
+          "Ghostscript.NET": {
+            "target": "Package",
+            "version": "[1.2.3.1, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WindowsForms": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Ghostscript.NET 1.2.3.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net6.0-windows7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "Ghostscript.NET",
+      "targetGraphs": [
+        "net6.0-windows7.0"
+      ]
+    }
+  ]
+}
